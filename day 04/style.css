@@ -1,0 +1,22 @@
+/*
+This is css comment
+*/
+
+.box {
+  background-color: #000;
+  color: blue;
+  height: 100px;
+  width: 100px;
+  border: 8px solid red;
+  /* border-width: 8px;
+  border-style: solid;
+  border-color: red; */
+}
+
+p {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}

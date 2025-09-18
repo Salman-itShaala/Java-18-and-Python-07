@@ -1,0 +1,20 @@
+p {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+}
+
+span {
+  background-color: cadetblue;
+  height: 100px;
+  width: 100px;
+}
+
+div {
+  height: 20px;
+  background-color: blue;
+}
+
+img {
+  width: 100px;
+}
