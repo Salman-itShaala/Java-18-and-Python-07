@@ -3,6 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: Gilroy;
+}
+
 /* -------------header start----------- */
 
 .header {
@@ -17,9 +21,74 @@
   width: 160px;
 }
 
+.header-right {
+  display: flex;
+  gap: 44px;
+  align-items: center;
+}
+
 .header-right a {
   color: white;
   text-decoration: none;
-  font-family: Gilroy;
   font-weight: bold;
+}
+
+.header-right-btn-1 {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  rotate: -45deg;
+}
+
+.header-right-btn-2 {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  border: none;
+  height: 50px;
+  padding: 0 44px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ----------header end---------- */
+
+/* ----------hero section start----------- */
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 82, 0);
+}
+
+.hero-center {
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  padding-top: 64px;
+  /* background-color: aqua; */
+  /* justify-content: center; */
+}
+
+.hero-center h1 {
+  color: white;
+  font-size: 48px;
+}
+
+.hero-left img,
+.hero-right img {
+  width: 248px;
 }
