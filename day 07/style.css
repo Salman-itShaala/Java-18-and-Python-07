@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 700px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.child-1,
+.child-2,
+.child-3 {
+  height: 200px;
+  width: 200px;
+  font-size: 80px;
+}
+
+.child-1 {
+  background-color: blue;
+}
+
+.child-2 {
+  background-color: chartreuse;
+}
+
+.child-3 {
+  background-color: yellow;
+}

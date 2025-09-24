@@ -92,3 +92,79 @@ body {
 .hero-right img {
   width: 248px;
 }
+
+.input-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.location-input {
+  width: 300px;
+  height: 60px;
+  border-radius: 14px;
+  border: none;
+  padding: 12px;
+}
+
+.search-input {
+  width: 460px;
+  height: 60px;
+  border-radius: 14px;
+  border: none;
+  padding: 12px;
+}
+
+.search-input::placeholder,
+.location-input::placeholder {
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(156, 156, 156);
+}
+
+.images-wrapper {
+  background-color: rgb(255, 82, 0);
+  display: flex;
+  justify-content: center;
+  margin-top: -220px;
+}
+
+.images-wrapper img {
+  width: 400px;
+}
+
+/* ------------ hero section end ------------ */
+
+.food-options-section {
+  padding: 100px 150px;
+}
+
+.food-option-heading {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.fa-arrow-left {
+  background-color: rgb(232, 232, 232);
+  color: gray;
+}
+
+.fa-arrow-right {
+  background-color: rgb(214, 214, 214);
+  color: rgb(79, 79, 79);
+}
+
+.arrow-wrapper i {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 26px;
+}

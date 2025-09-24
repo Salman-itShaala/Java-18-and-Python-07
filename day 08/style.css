@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 800px;
+  padding: 20px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.child {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  border: 2px solid red;
+}
+
+.yellow {
+  background-color: yellow;
+  order: 1;
+  align-self: flex-start;
+  animation: bounce 1s linear infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
