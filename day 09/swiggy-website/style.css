@@ -45,8 +45,10 @@ body {
   cursor: pointer;
 }
 
-.arrow-icon {
+.header-right-btn-1 .arrow-icon {
   rotate: -45deg;
+  color: white;
+  background-color: rgb(255, 82, 0);
 }
 
 .header-right-btn-2 {
@@ -167,4 +169,38 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 26px;
+}
+
+.food-options {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.food-options a {
+  color: #02060cbf;
+  text-decoration: none;
+}
+
+.food-options img {
+  width: 180px;
+}
+
+.container-2 {
+  margin-top: 30px;
+  /* border: 4px solid red; */
+  /* background-color: aqua; */
+  overflow: auto;
+  gap: 20px;
+}
+
+.container-2::-webkit-scrollbar {
+  display: none;
+}
+
+.container-2 a img {
+  width: 160px;
 }
