@@ -204,3 +204,81 @@ body {
 .container-2 a img {
   width: 160px;
 }
+
+/* ------------ restaurant section start -------------- */
+
+.restaurant-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  overflow-x: scroll;
+  margin: 40px 0;
+}
+
+.restaurant-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.rest-card {
+  width: 340px;
+  color: rgba(2, 6, 12, 0.6);
+  text-decoration: none;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgb(231, 231, 231);
+  flex-shrink: 0;
+}
+
+.rest-card-box {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.img {
+  width: 340px;
+  height: 200px;
+  background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2024/9/25/d9cabbe8-13f0-4581-809a-455776bb5d8a_image4487a6c993754471f99c03ffac3103512.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+/* 
+.rest-card img {
+  width: 340px;
+} */
+
+.rest-card-box-1,
+.rest-card-box-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rest-card-booking {
+  background-color: rgb(232, 232, 232);
+  width: max-content;
+  border-radius: 12px;
+  padding: 2px 8px;
+}
+
+.rest-card-box-3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(27, 166, 114);
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.rest-card-bank-offers {
+  background-color: #c8f9e5;
+  color: rgb(27, 166, 114);
+  padding: 8px;
+  border-radius: 8px;
+
+  /* margin-bottom: 10px; */
+}
