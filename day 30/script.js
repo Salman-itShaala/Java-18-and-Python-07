@@ -5,9 +5,18 @@ const todosWrapper = document.getElementById("todos-wrapper");
 
 function addTodo() {
   const todoValue = todoInput.value;
+
+  // !todoValue
+  if (todoValue === "") {
+    alert("You can not insert empty todo!!");
+    return;
+  }
+
   todos.push(todoValue);
 
   updateDOM();
+
+  todoInput.value = "";
 
 }
 
