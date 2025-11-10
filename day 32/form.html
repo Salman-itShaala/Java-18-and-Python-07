@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form>
+      <fieldset>
+        <legend>Personal info</legend>
+        <label for="first-name">Enter your name</label>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          name="first_name"
+          required
+          id="first-name"
+          maxlength="8"
+          minlength="3"
+          pattern=""
+        />
+        <br />
+        <br />
+
+        <input type="number" step="10" />
+
+        <br /><br />
+
+        <label>
+          Enter your last name
+          <input type="text" placeholder="Enter your last name" disabled />
+        </label>
+
+        <label for="password">Enter your password</label>
+        <input
+          type="password"
+          placeholder="Enter your password"
+          name="password"
+          required
+          id="password"
+        />
+      </fieldset>
+
+      <br />
+      <br />
+
+      <label for="course">Select course</label>
+      <select name="selected-course" id="course">
+        <option value="java-full-stack">Full stack Java</option>
+        <option value="mern-stack" selected>Mern</option>
+        <option value="python-full-stack">Python full stack</option>
+      </select>
+
+      <p>Select Gender</p>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+
+      <input type="radio" id="others" name="gender" value="others" />
+      <label for="others">Others</label>
+
+      <br /><br />
+
+      <p>Select your fav cars</p>
+      <input type="checkbox" id="audi" name="car-1" value="Audi" />
+      <label for="audi">Audi</label>
+      <br /><br />
+      <input type="checkbox" id="merc" name="car-2" value="Merc" />
+      <label for="merc">Mercede...</label>
+      <br /><br />
+      <input type="checkbox" id="lambo" name="car-3" value="lambo" />
+      <label for="lambo">Lamborgh...</label>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
