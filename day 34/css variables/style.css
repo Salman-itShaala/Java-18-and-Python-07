@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 
+html{
+
+} */
+
+:root {
+  --brand-color: #387ed1;
+  --common-padding: 0 12vw;
+  --bg-color: white;
+  --text-color: black;
+}
+/* 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: black;
+    --text-color: white;
+  }
+} */
+
+.dark {
+  --bg-color: black;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+header {
+  padding: var(--common-padding);
+}
+
+section {
+  padding: var(--common-padding);
+}
+.box {
+  height: 400px;
+  width: 400px;
+  background-color: var(--brand-color);
+}

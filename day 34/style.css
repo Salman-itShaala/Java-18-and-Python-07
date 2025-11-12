@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 
+html {
+  font-size: 10px;
+} */
+
+:root {
+  font-size: 10px;
+}
+
+.box-1 {
+  width: 100%;
+  height: 100vh;
+  background-color: yellow;
+}
+
+.parent {
+  font-size: 10px;
+  height: 100vh;
+  width: 50%;
+  background-color: aquamarine;
+}
+
+.child {
+  height: 400px;
+  width: 400px;
+  font-size: 2rem;
+  background-color: black;
+}
+
+.grand-child {
+  height: 4rem;
+  width: 4rem;
+  background-color: red;
+}
+
+.container {
+  height: 50mm;
+  width: 50mm;
+  background-color: aqua;
+}
+
+.card {
+  font-size: 4vw;
+}
